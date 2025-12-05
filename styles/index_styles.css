@@ -1,5 +1,5 @@
 *{
-    background: linear-gradient(to top, rgb(0, 100, 255), rgb(255, 255, 255));
+    background: linear-gradient(to bottom, rgb(0, 100, 255), rgb(255, 69, 0));
     box-sizing: content-box;
 }
 
@@ -7,22 +7,22 @@
     text-align: center;
     font-size: 32px;
     font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(255, 69, 0);
-    background: linear-gradient(to top, rgb(0, 100, 255), rgb(255, 255, 255));
+    color: rgb(245, 234, 46);
+    background: linear-gradient(to top, rgb(0, 100, 255), rgb(255, 69, 0));
 }
 
-.Dokkan{
+div{
     width: 340px;
     height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
     display: inline-flex;
     align-items: flex-end;
     justify-content: center;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+}
+
+.Dokkan{
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -40,14 +40,7 @@
 }
 
 .A15{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -65,14 +58,7 @@
 }
 
 .A17{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -90,14 +76,7 @@
 }
 
 .A19{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -115,14 +94,7 @@
 }
 
 .A13{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -140,14 +112,7 @@
 }
 
 .A16{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -165,14 +130,7 @@
 }
 
 .A18{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -190,14 +148,7 @@
 }
 
 .Dende{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -215,14 +166,7 @@
 }
 
 .Babidi{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -240,14 +184,7 @@
 }
 
 .Bardock{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -265,14 +202,7 @@
 }
 
 .Beerus{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -290,14 +220,7 @@
 }
 
 .Bulma{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -315,14 +238,7 @@
 }
 
 .BuuGordo{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -340,14 +256,7 @@
 }
 
 .Cell{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -365,14 +274,7 @@
 }
 
 .Milk{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -390,14 +292,7 @@
 }
 
 .Dendejoven{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -415,14 +310,7 @@
 }
 
 .Dispo{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -440,14 +328,7 @@
 }
 
 .Dodoria{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -465,14 +346,7 @@
 }
 
 .DrGero{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -490,14 +364,7 @@
 }
 
 .Yamcha{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -515,14 +382,7 @@
 }
 
 .Freezer{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -540,14 +400,7 @@
 }
 
 .Ginyu{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -565,14 +418,7 @@
 }
 
 .GinyuF{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -590,14 +436,7 @@
 }
 
 .Gohan{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -615,14 +454,7 @@
 }
 
 .Goku{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -640,14 +472,7 @@
 }
 
 .Gotenks{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -665,14 +490,7 @@
 }
 
 .GKS{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -690,14 +508,7 @@
 }
 
 .GKSama{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -715,14 +526,7 @@
 }
 
 .GrandPriest{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -740,14 +544,7 @@
 }
 
 .Jiren{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -765,14 +562,7 @@
 }
 
 .KSE{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -790,14 +580,7 @@
 }
 
 .KSN{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -815,14 +598,7 @@
 }
 
 .KSO{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -840,14 +616,7 @@
 }
 
 .KSS{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -865,14 +634,7 @@
 }
 
 .KE{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -890,14 +652,7 @@
 }
 
 .KN{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -915,14 +670,7 @@
 }
 
 .KO{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -940,14 +688,7 @@
 }
 
 .KS{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -965,14 +706,7 @@
 }
 
 .Kibito{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -990,14 +724,7 @@
 }
 
 .KibitoS{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -1015,14 +742,7 @@
 }
 
 .Krillin{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -1040,14 +760,7 @@
 }
 
 .Lunch{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -1065,14 +778,7 @@
 }
 
 .Marcarita{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -1090,14 +796,7 @@
 }
 
 .MrSatan{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -1115,14 +814,7 @@
 }
 
 .Nail{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -1140,14 +832,7 @@
 }
 
 .Piccolo{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -1165,14 +850,7 @@
 }
 
 .Raditz{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -1190,14 +868,7 @@
 }
 
 .Roshi{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -1215,14 +886,7 @@
 }
 
 .Ten{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -1240,14 +904,7 @@
 }
 
 .Toppo{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -1265,14 +922,7 @@
 }
 
 .Trunks{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -1290,14 +940,7 @@
 }
 
 .Vegeta{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -1315,14 +958,7 @@
 }
 
 .Vermound{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -1340,14 +976,7 @@
 }
 
 .Whis{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -1365,14 +994,7 @@
 }
 
 .Zarbon{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -1390,14 +1012,7 @@
 }
 
 .Zeno{
-    width: 340px;
-    height: 510px;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
     position: relative;
     z-index: 0;
 }
@@ -1414,7 +1029,7 @@
     background-size: contain;
 }
 
-p{
+h2, p{
     margin: 12px;
     padding: 8px;
     background-color: rgba(255, 255, 255, 0.7);
