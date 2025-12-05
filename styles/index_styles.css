@@ -1,0 +1,1423 @@
+*{
+    background: linear-gradient(to top, rgb(0, 100, 255), rgb(255, 255, 255));
+    box-sizing: content-box;
+}
+
+.maintitle{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 69, 0);
+    background: linear-gradient(to top, rgb(0, 100, 255), rgb(255, 255, 255));
+}
+
+.Dokkan{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Dokkan::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../galeria/imagenes/14Dokkan.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.A15{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.A15::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../galeria/imagenes/15Dokkan.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.A17{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.A17::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../galeria/imagenes/17_Artwork.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.A19{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.A19::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../galeria/imagenes/Android19.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.A13{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.A13::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../galeria/imagenes/Androide13normal.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.A16{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.A16::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../galeria/imagenes/Androide_16.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.A18{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.A18::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../galeria/imagenes/Androide_18_Artwork.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Dende{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Dende::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../galeria/imagenes/Arte_de_Dende_en_Super_Hero.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Babidi{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Babidi::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../galeria/imagenes/Babidi_Artwork.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Bardock{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Bardock::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../galeria/imagenes/Bardock_Artwork.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Beerus{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Beerus::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Beerus_DBS_Broly_Artwork.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Bulma{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Bulma::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/bulma.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.BuuGordo{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.BuuGordo::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/BuuGordo_Universo7.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Cell{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Cell::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/celula.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Milk{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Milk::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/ChiChi_DBS.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Dendejoven{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Dendejoven::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Dende_Artwork.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Dispo{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Dispo::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Dispo_render.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Dodoria{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Dodoria::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/dodoria.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.DrGero{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.DrGero::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Dr._Gero_nadroide_20.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Yamcha{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Yamcha::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Final_Yamcha.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Freezer{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Freezer::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Freezer.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Ginyu{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Ginyu::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/ginyu.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.GinyuF{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.GinyuF::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/ginyu_force.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Gohan{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Gohan::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/gohan.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Goku{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Goku::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/goku_normal.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Gotenks{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Gotenks::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Gotenks_Artwork.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.GKS{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.GKS::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Gran_Kaio-shin_Artwork.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.GKSama{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.GKSama::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Gran_kaio_sama12.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.GrandPriest{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.GrandPriest::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Grand_priest.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Jiren{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Jiren::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Jiren.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.KSE{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.KSE::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/kaio-shin_del_este.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.KSN{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.KSN::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Kaio-shin_del_norte.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.KSO{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.KSO::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Kaio-shin_del_Oeste_Dokkan.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.KSS{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.KSS::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Kaio-shin_del_Sur_Dokkan.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.KE{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.KE::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/kaio_del_este.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.KN{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.KN::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Kaio_del_Norte.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.KO{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.KO::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Kaio_del_oeste.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.KS{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.KS::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Kaio_del_sur_cuerpo_completo.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Kibito{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Kibito::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Kibito_Artwork.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.KibitoS{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.KibitoS::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Kibito_shin_Artwork.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Krillin{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Krillin::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Krilin_Universo7.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Lunch{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Lunch::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Lunch_traje_de_sirvienta_en_el_manga.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Marcarita{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Marcarita::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Marcarita.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.MrSatan{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.MrSatan::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Mr_Satan_DBSuper.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Nail{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Nail::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Nail_Artwork.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Piccolo{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Piccolo::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/picolo_normal.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Raditz{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Raditz::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Raditz_artwork_Dokkan.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Roshi{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Roshi::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/roshi.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Ten{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Ten::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Tenshinhan_Universo7.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Toppo{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Toppo::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Toppo.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Trunks{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Trunks::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Trunks_Buu_Artwork.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Vegeta{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Vegeta::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/vegeta_normal.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Vermound{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Vermound::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Vermoud.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Whis{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Whis::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Whis_DBS_Broly_Artwork.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Zarbon{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Zarbon::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/zarbon.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Zeno{
+    width: 340px;
+    height: 510px;
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255), rgb(255, 255, 255));
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 17px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Zeno::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../galeria/imagenes/Zeno_Artwork.webp);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+p{
+    margin: 12px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+}
