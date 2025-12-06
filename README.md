@@ -8,3 +8,11 @@ Para visualizar la página de modo local, y trabajar sobre ella, es recomendado 
 
 ## Link a la página
 En caso dado que solo se desee ver el resultado final, este puede ser visualizado a través del siguiente enlace: https://miguelflve.github.io/galeria-visual-Miguel-Florez/
+
+## Decisiones de diseño
+
+### Paleta de colores
+Las combinaciones RGB (0, 100, 255), (255, 69, 0), y (245, 234, 46) fueron escogidas debido a su similitud con el color del aura del Super Saiyajin Blue, el Dios Super Saiyajin y el Super Saiyajin, respectivamente. Esto, considerando la temática de la página.
+
+### Gradientes
+Los gradientes fueron pensados como una representación de el cambio de una fase a otra del Super Saiyajin, empezando desde su estado más poderoso (el Super Saiyajin Blue), hasta terminar en su estado base (el Super Saiyajin). Lo anterior, entendiendo el scroll en la página como el paso del tiempo y el cansancio que sufre el Saiyajin estando en cada estado, lo que lo lleva a no poder mantenerlo.

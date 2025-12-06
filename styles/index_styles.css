@@ -1,51 +1,53 @@
-*{
-    background: linear-gradient(to bottom, rgb(0, 100, 255), rgb(255, 69, 0));
-    box-sizing: content-box;
+*{/* Modificación de todos los elementos de la página */
+    background: linear-gradient(to bottom, rgb(0, 100, 255), rgb(255, 69, 0), rgb(245, 234, 46)); /*Se espera que el fondo de todos los elementos se corresponda con un degradado desde arriba hacia abajo, que inicia en el tono de azul escojido, pasa por el tono de rojo y termina en el tono de amarillo */
+    box-sizing: border-box; /*Se define el tamaño de caja con el cual se va a trabajar */
 }
 
-.maintitle{
-    text-align: center;
-    font-size: 32px;
-    font-weight: bold;
-    color: rgb(245, 234, 46);
-    background: linear-gradient(to top, rgb(0, 100, 255), rgb(255, 69, 0));
+.maintitle{ /*Modificación de los elementos pertenencientes a la clase "maintitle" */
+    text-align: center; /*Se espera que el texto al interior de la clase se encuentre ubicado al centro horizontal de la caja */
+    font-size: 32px; /*Se espera que el texto al interior de la clase tenga un tamaño de letra de 32 pixeles */
+    font-weight: bold; /* Se espera que el texto al interior de la clase tenga un grosor de letra negrita */
+    color: rgb(245, 234, 46); /*Se espera que el texto al interior de la clase tenga un color amarillo, específicamente el determinado por la combinación RGB dada */
+    background: linear-gradient(to top, rgb(0, 100, 255), rgb(255, 69, 0)); /*Se espera que el fondo de los elementos al interior de la clase se corresponda con un degradado desde abajo hacia arriba, que inicia en el tono de azul escojido, y termina en el tono de rojo */
 }
 
-main{
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    justify-content: center;
+main{/*Modificación de los elementos "main" de la página */
+    text-align: center; /*Se espera que el texto al interior de los elementos "main" se encuentre ubicado al centro horizontal de la caja */
+    display: flex; /*Se espera que los elementos "main" utilicen el modelo de caja flexible para la disposición de sus elementos hijos */
+    flex-wrap: wrap; /*Se espera que los elementos hijos de los elementos "main" puedan ajustarse a múltiples líneas si es necesario */
+    gap: 25px; /*Se espera que haya un espacio de 25 pixeles entre los elementos hijos de los elementos "main" */
+    justify-content: center; /*Se espera que los elementos hijos de los elementos "main" estén centrados horizontalmente dentro del contenedor */
 }
 
-div{
-    width: 340px;
-    height: 510px;
-    display: inline-flex;
-    align-items: flex-end;
-    justify-content: center;
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 17px;
-    position: relative;
-    z-index: 0;
-    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
+div{/*Modificación de todos los elementos "div" de la página */
+    width: 340px; /*Se espera que el ancho de todos los elementos "div" sea de 340 pixeles */
+    height: 510px; /*Se espera que la altura de todos los elementos "div" sea de 510 pixeles */
+    display: inline-flex; /*Se espera que todos los elementos "div" utilicen el modelo de caja flexible en línea para la disposición de sus elementos hijos */
+    align-items: flex-end; /*Se espera que los elementos hijos de todos los elementos "div" estén alineados al final del eje transversal (inferior) del contenedor */
+    justify-content: center; /*Se espera que los elementos hijos de todos los elementos "div" estén centrados horizontalmente dentro del contenedor */
+    border: solid 2px rgb(0, 0, 0); /*Se espera que todos los elementos "div" tengan un borde sólido de 2 pixeles de grosor y de color negro */
+    border-radius: 17px; /*Se espera un borde redondeado notablemente en las esquinas */
+    position: relative; /*Preparación para la determinación de la posición de las imágenes, además de fijar la posición de los elementos "div" en su posición "natural" en el documento */
+    z-index: 0; /*Se ubica la capa en la que se encuentra los elementos CSS de este selector */
+    background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255)); /*Se espera que el fondo de todos los elementos "div" se corresponda con un degradado desde abajo hacia arriba, que inicia en el tono de amarillo escojido, pasa por el tono de rojo y termina en el tono de azul */
 }
 
-div::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+div::before{/*Creación de un contenido virtual, para modificar la visualización de elementos */
+    content: ''; /*Se determina que el contenido está vacío */
+    position: absolute; /*Se elimina la posición del elemento del flujo "natural" del documento, y se fija de manera manual */
+    width: 100%; /*Se espera que el ancho del contenido virtual sea del 100% del contenedor padre */
+    height: 100%; /*Se espera que la altura del contenido virtual sea del 100% del contenedor padre */
+    z-index: -1; /*Se ubica la capa en la que se encuentra el contenido virtual, detrás de la capa de los elementos "div" */
 }
 
-.Dokkan::before{
-    background-image: url(../galeria/imagenes/14Dokkan.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+.Dokkan::before{/*Modificación del contenido virtual de los elementos pertenecientes a la clase "Dokkan" */
+    background-image: url(../galeria/imagenes/14Dokkan.webp); /*Se espera que la imagen de fondo del contenido virtual sea la ubicada en la ruta dada */
+    background-position: center; /*Se espera que la imagen de fondo del contenido virtual esté centrada */
+    background-repeat: no-repeat; /*Se espera que la imagen de fondo del contenido virtual no se repita */
+    background-size: contain; /*Se espera que la imagen de fondo del contenido virtual se ajuste al contenedor sin recortarse */
 }
+
+/* A partir de este punto, las siguientes líneas de código siguen el mismo patrón que el anterior, modificando el contenido virtual de cada clase específica para asignar la imagen correspondiente. Se hará otro comentario para indicar la finalización de esta sección de código */
 
 .A15::before{
     background-image: url(../galeria/imagenes/15Dokkan.webp);
@@ -432,10 +434,13 @@ div::before{
     background-size: contain;
 }
 
-h2, p{
-    margin: 12px;
-    padding: 8px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 12px;
-    color: rgb(0, 0, 0);
+/* Finalización de la sección de código que modifica el contenido virtual de cada clase específica */
+
+h2, p{/*Modificación de los elementos "h2" y "p" de la página */
+    margin: 12px; /*Se espera que todos los elementos "h2" y "p" tengan un margen de 12 pixeles */
+    padding: 8px; /*Se espera que todos los elementos "h2" y "p" tengan un relleno de 8 pixeles */
+    background: rgba(0, 0, 0, 0); /*Se espera que el fondo de todos los elementos "h2" y "p" sea transparente. Esto elimina el fondo determinado por el selector * */
+    background-color: rgba(255, 255, 255, 0.5); /*Se determina un color de fondo blanco semitransparente para todos los elementos "h2" y "p", con el fin de mejorar la visualización de los textos, sin obstruir totalmente la visualización de los elementos detrás de ellos */
+    border-radius: 12px; /*Se espera un borde redondeado moderadamente en las esquinas */
+    color: rgb(0, 0, 0); /*Se espera que el texto al interior de todos los elementos "h2" y "p" tenga un color negro */
 }
