@@ -19,1014 +19,467 @@ div{
     justify-content: center;
     border: solid 2px rgb(0, 0, 0);
     border-radius: 17px;
+    position: relative;
+    z-index: 0;
+}
+
+div::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .Dokkan{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Dokkan::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background-image: url(../galeria/imagenes/14Dokkan.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .A15{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .A15::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background-image: url(../galeria/imagenes/15Dokkan.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .A17{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .A17::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background-image: url(../galeria/imagenes/17_Artwork.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .A19{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .A19::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background-image: url(../galeria/imagenes/Android19.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .A13{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .A13::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background-image: url(../galeria/imagenes/Androide13normal.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .A16{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .A16::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background-image: url(../galeria/imagenes/Androide_16.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .A18{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .A18::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background-image: url(../galeria/imagenes/Androide_18_Artwork.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Dende{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Dende::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background-image: url(../galeria/imagenes/Arte_de_Dende_en_Super_Hero.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Babidi{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Babidi::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background-image: url(../galeria/imagenes/Babidi_Artwork.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Bardock{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Bardock::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background-image: url(../galeria/imagenes/Bardock_Artwork.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Beerus{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Beerus::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Beerus_DBS_Broly_Artwork.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Bulma{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Bulma::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/bulma.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .BuuGordo{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .BuuGordo::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/BuuGordo_Universo7.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Cell{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Cell::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/celula.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Milk{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Milk::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/ChiChi_DBS.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Dendejoven{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Dendejoven::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Dende_Artwork.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Dispo{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Dispo::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Dispo_render.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Dodoria{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Dodoria::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/dodoria.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .DrGero{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .DrGero::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Dr._Gero_nadroide_20.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Yamcha{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Yamcha::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Final_Yamcha.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Freezer{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Freezer::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Freezer.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Ginyu{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Ginyu::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/ginyu.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .GinyuF{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .GinyuF::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/ginyu_force.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Gohan{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Gohan::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/gohan.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Goku{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Goku::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/goku_normal.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Gotenks{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Gotenks::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Gotenks_Artwork.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .GKS{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .GKS::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Gran_Kaio-shin_Artwork.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .GKSama{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .GKSama::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Gran_kaio_sama12.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .GrandPriest{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .GrandPriest::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Grand_priest.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Jiren{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Jiren::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Jiren.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .KSE{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .KSE::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/kaio-shin_del_este.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .KSN{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .KSN::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Kaio-shin_del_norte.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .KSO{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .KSO::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Kaio-shin_del_Oeste_Dokkan.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .KSS{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .KSS::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Kaio-shin_del_Sur_Dokkan.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .KE{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .KE::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/kaio_del_este.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .KN{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .KN::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Kaio_del_Norte.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .KO{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .KO::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Kaio_del_oeste.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .KS{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .KS::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Kaio_del_sur_cuerpo_completo.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Kibito{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Kibito::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Kibito_Artwork.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .KibitoS{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .KibitoS::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Kibito_shin_Artwork.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Krillin{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Krillin::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Krilin_Universo7.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Lunch{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Lunch::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Lunch_traje_de_sirvienta_en_el_manga.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Marcarita{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Marcarita::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Marcarita.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .MrSatan{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .MrSatan::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Mr_Satan_DBSuper.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Nail{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Nail::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Nail_Artwork.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Piccolo{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Piccolo::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/picolo_normal.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Raditz{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Raditz::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Raditz_artwork_Dokkan.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Roshi{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Roshi::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/roshi.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Ten{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Ten::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Tenshinhan_Universo7.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Toppo{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Toppo::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Toppo.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Trunks{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Trunks::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Trunks_Buu_Artwork.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Vegeta{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Vegeta::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/vegeta_normal.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Vermound{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Vermound::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Vermoud.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Whis{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Whis::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Whis_DBS_Broly_Artwork.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Zarbon{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Zarbon::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/zarbon.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .Zeno{
     background: linear-gradient(to top, rgb(245, 234, 46), rgb(255, 69, 0), rgb(0, 100, 255));
-    position: relative;
-    z-index: 0;
 }
 
 .Zeno::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
     background: url(../galeria/imagenes/Zeno_Artwork.webp);
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 h2, p{
