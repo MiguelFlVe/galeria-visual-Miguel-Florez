@@ -3,6 +3,17 @@
     box-sizing: border-box; /*Se define el tamaño de caja con el cual se va a trabajar */
 }
 
+header{/*Modificación de los elementos "header" de la página */
+    background: rgba(0, 0, 0, 0);
+}
+
+header > p{/*Modificación de los elementos "p" que son hijos directos de los elementos "header" */
+    text-align: center; /*Se espera que el texto al interior de los elementos "p" se encuentre ubicado al centro horizontal de la caja */
+    font-size: 20px; /*Se espera que el texto al interior de los elementos "p" tenga un tamaño de letra de 20 pixeles */
+    font-weight: bold; /*Se espera que el texto al interior de los elementos "p" tenga un grosor de letra negrita */
+    color: rgb(0, 0, 0); /*Se espera que el texto al interior de los elementos "p" tenga un color negro */
+}
+
 .maintitle{ /*Modificación de los elementos pertenencientes a la clase "maintitle" */
     text-align: center; /*Se espera que el texto al interior de la clase se encuentre ubicado al centro horizontal de la caja */
     font-size: 32px; /*Se espera que el texto al interior de la clase tenga un tamaño de letra de 32 pixeles */
